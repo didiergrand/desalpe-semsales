@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------
+# Theme color variables
+--------------------------------------------------------------*/
+
+:root {
+  /* Brand / UI */
+  --color-primary: #223347;
+  --color-primary-dark: #1D3349;
+  --color-accent: #1e3449;
+  --color-accent-light: #3a5a74;
+  --color-accent-dark: #162b3c;
+  --color-secondary: #1e3449;
+  --color-secondary-light: #95C91E;
+  --color-secondary-dark: #608A00;
+
+  /* Text / surfaces */
+  --color-text: #223347;
+  --color-text-muted: #666;
+  --color-background: #F7F7F7;
+  --color-surface: #fff;
+  --color-border: #ccc;
+
+  /* Links / states */
+  --color-link: #2a2a98;
+  --color-link-hover: #3f3fdf;
+  --color-warning-bg: #fff9c0;
+
+  /* Overlays / shadows */
+  --color-overlay: rgba(0, 0, 0, 0.2);
+  --color-overlay-strong: rgba(0, 0, 0, 0.4);
+  --color-shadow: rgba(0, 0, 0, 0.6);
+}

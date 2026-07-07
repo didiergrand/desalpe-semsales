@@ -50,6 +50,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 --------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Poppins:ital,wght@0,300;1,300&display=swap");
+@import url("css/theme-colors.css");
 
 /*--------------------------------------------------------------
 # Generic
@@ -547,7 +548,7 @@ table {
 /* Links
 --------------------------------------------- */
 a {
-  color: #2a2a98;
+  color: var(--color-accent);
 }
 
 a:visited {
@@ -557,7 +558,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: #3f3fdf;
+  color: var(--color-accent-light);
 }
 
 a:focus {
@@ -710,7 +711,7 @@ textarea {
 }
 
 #page {
-  border-top: 20px solid #79AD00;
+  border-top: 20px solid var(--color-accent);
 }
 
 #page .entry-header,
@@ -809,7 +810,7 @@ textarea {
 }
 
 .site-footer {
-  background-color: #79AD00;
+  background-color: var(--color-accent);
   color: #fff;
   padding: 80px 0 0;
 }
@@ -831,17 +832,17 @@ textarea {
 }
 
 .site-footer a:hover {
-  color: #2a2a98;
+  color: var(--color-accent-light);
 }
 
 .site-footer .site-info {
-  background-color: #95C91E;
-  color: #608A00;
+  background-color: var(--color-accent-light);
+  color: var(--color-accent-dark);
   padding: 5px;
 }
 
 .site-footer .site-info a {
-  color: #608A00;
+  color: var(--color-accent-dark);
 }
 
 .site-header {
@@ -948,7 +949,7 @@ textarea {
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 5px solid #79AD00;
+  border-top: 5px solid var(--color-accent);
   position: absolute;
   right: -15px;
   top: 10px;
