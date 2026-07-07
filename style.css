@@ -832,7 +832,7 @@ textarea {
 }
 
 .site-footer a:hover {
-  color: var(--color-accent-light);
+  color: var(--color-accent-lighter);
 }
 
 .site-footer .site-info {
